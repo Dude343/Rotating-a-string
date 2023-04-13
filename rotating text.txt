@@ -1,0 +1,11 @@
+function rotate(str){
+
+  let output = [];
+  for (let i = 0; i < str.length; i++){
+    str = str.substring(1,str.length) + str[0]
+    output.push(str);
+  }
+  return output
+
+
+}
