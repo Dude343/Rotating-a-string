@@ -6,6 +6,10 @@ function rotate(str){
     output.push(str);
   }
   return output
+}
 
 
+
+function rotate(s){
+  return s.split("").map(e=>s = s.slice(1)+s.slice(0,1));
 }
